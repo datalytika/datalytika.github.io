@@ -59,6 +59,14 @@
         time: 2000
     });
     
+    // Typing Scrip
+    var typed = new Typed(".typing", {
+        strings: ["Data and Web", "Mobile Apps", "Data Visualisations", "Research and Analytics", "Data Science"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    
     
     // Back to top button
     $(window).scroll(function () {
