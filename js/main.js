@@ -62,7 +62,7 @@
     // Typing Scrip
     var typed = new Typed(".typing", {
         strings: ["Data and Web", "Mobile Apps", "Data Visualisations", "Research and Analytics", "Data Science"],
-        typeSpeed: 100,
+        typeSpeed: 200,
         backSpeed: 60,
         loop: true
     });
