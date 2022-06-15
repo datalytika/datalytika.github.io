@@ -490,3 +490,20 @@ h6,
         margin-bottom: -75px;
     }
 }
+
+/*** Extra for Paragraphs ***/
+body.a {
+				background-color: #f7fcfc;
+			}
+			p.a {
+				font-family: Arial, sans-serif;
+				font-size: 14px;
+				text-align: default;
+				color: #2f2d2d;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				letter-spacing: 17px;
+				line-height: 2px;
+				text-indent: 3px;
+			}
