@@ -492,10 +492,8 @@ h6,
 }
 
 /*** Extra for Paragraphs ***/
-body.a {
-				background-color: #f7fcfc;
-			}
 			p.a {
+				background-color: #f7fcfc;
 				font-family: Arial, sans-serif;
 				font-size: 14px;
 				text-align: default;
