@@ -4,8 +4,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="canonical" href="https://www.scnsoft.com/_fragment" />
-<meta property="og:image" content="https://www.scnsoft.com/bundles/app/img/areas/sciencesoft-logo-2.png" />
+<link rel="canonical" href="https://www.datalytika.org/_fragment" />
+<meta property="og:image" content="https://www.datalytika.org/bundles/app/img/areas/sciencesoft-logo-2.png" />
 <link rel="preload" href="/bundles/app/fonts/OpenSans-Regular-webfont.a8426c62.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link rel="preload" href="/bundles/app/fonts/OpenSans-Semibold-webfont.d056308e.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link rel="preload" href="/bundles/app/fonts/OpenSans-Bold-webfont.3964ae75.woff2" as="font" type="font/woff2" crossorigin="anonymous">
@@ -944,7 +944,7 @@ Experts
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/about/testimonials" class="js-track-click">
+<a href="https://www.datalytika.org/about/testimonials" class="js-track-click">
 Clients
 </a>
 </div>
@@ -1000,7 +1000,7 @@ Press Room
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/press-room/pressreleases" class="js-track-click">
+<a href="https://www.datalytika.org/press-room/pressreleases" class="js-track-click">
 News
 </a>
 </div>
@@ -1058,7 +1058,7 @@ Software Development
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/software-testing" class="js-track-click">
+<a href="https://www.datalytika.org/software-testing" class="js-track-click">
 Testing and QA
 </a>
 </div>
@@ -1068,7 +1068,7 @@ Application Services
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/web-design" class="js-track-click">
+<a href="https://www.datalytika.org/services/web-design" class="js-track-click">
 UI/UX Design
 </a>
 </div>
@@ -1078,14 +1078,14 @@ Infrastructure Services
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/analytics" class="js-track-click">
+<a href="https://www.datalytika.org/services/analytics" class="js-track-click">
 Data Analytics
 </a>
 </div>
 </div>
 <div class="header-sub-menu-column">
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/digital-transformation" class="js-track-click">
+<a href="https://www.datalytika.org/services/digital-transformation" class="js-track-click">
 Digital Transformation
 </a>
 </div>
@@ -1218,7 +1218,7 @@ Data Analytics
 </a>
 </div>
 <div class="header-sub-menu-link ">
- <a href="https://www.scnsoft.com/ecommerce" class="js-track-click">
+ <a href="https://www.datalytika.org/ecommerce" class="js-track-click">
 Ecommerce
 </a>
 </div>
@@ -1311,22 +1311,22 @@ Ask us
 <div class="header-sub-menu-column">
 <p class="header-sub-menu-title">Programming</p>
 <div class="header-sub-menu-link ">
- <a href="https://www.scnsoft.com/services/java-development" class="js-track-click">
+ <a href="https://www.datalytika.org/services/java-development" class="js-track-click">
 Java
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/.net-development" class="js-track-click">
+<a href="https://www.datalytika.org/services/.net-development" class="js-track-click">
 .NET
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/hire-python-developers" class="js-track-click">
+<a href="https://www.datalytika.org/services/hire-python-developers" class="js-track-click">
 Python
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/php" class="js-track-click">
+<a href="https://www.datalytika.org/services/php" class="js-track-click">
 PHP
 </a>
 </div>
@@ -1336,22 +1336,22 @@ Golang
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/cpp-development" class="js-track-click">
+<a href="https://www.datalytika.org/services/cpp-development" class="js-track-click">
 C++
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/nodejs" class="js-track-click">
+<a href="https://www.datalytika.org/services/nodejs" class="js-track-click">
 Node.js
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/javascript" class="js-track-click">
+<a href="https://www.datalytika.org/services/javascript" class="js-track-click">
 JavaScript
 </a>
 </div>
  <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/hire-react-native-developers" class="js-track-click">
+<a href="https://www.datalytika.org/services/hire-react-native-developers" class="js-track-click">
 React Native
 </a>
 </div>
@@ -1359,7 +1359,7 @@ React Native
 <div class="header-sub-menu-column">
 <p class="header-sub-menu-title">Trending</p>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/cloud-consulting" class="js-track-click">
+<a href="https://www.datalytika.org/services/cloud-consulting" class="js-track-click">
 Cloud
 </a>
 </div>
@@ -1369,12 +1369,12 @@ Internet of Things
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/big-data" class="js-track-click">
+<a href="https://www.datalytika.org/services/big-data" class="js-track-click">
 Big Data
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/data-science" class="js-track-click">
+<a href="https://www.datalytika.org/services/data-science" class="js-track-click">
 Data Science
 </a>
 </div>
@@ -1417,22 +1417,22 @@ Microsoft Power Apps
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/services/business-intelligence/microsoft/power-bi" class="js-track-click">
+<a href="https://www.datalytika.org/services/business-intelligence/microsoft/power-bi" class="js-track-click">
 Microsoft Power BI
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/microsoft-azure" class="js-track-click">
+<a href="https://www.datalytika.org/microsoft-azure" class="js-track-click">
 Microsoft Azure
  </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/aws" class="js-track-click">
+<a href="https://www.datalytika.org/aws" class="js-track-click">
 Amazon Web Services
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/ecommerce/magento" class="js-track-click">
+<a href="https://www.datalytika.org/ecommerce/magento" class="js-track-click">
 Magento
 </a>
 </div>
@@ -1447,7 +1447,7 @@ Salesforce
 </a>
 </div>
 <div class="header-sub-menu-link ">
-<a href="https://www.scnsoft.com/pimcore-development" class="js-track-click">
+<a href="https://www.datalytika.org/pimcore-development" class="js-track-click">
 Pimcore
 </a>
 </div>
@@ -1525,7 +1525,7 @@ Experts
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/about/testimonials" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/about/testimonials" class="header-sub-menu-mobile-link js-track-click ">
 Clients
 </a>
  </div>
@@ -1581,7 +1581,7 @@ Press Room
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/press-room/pressreleases" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/press-room/pressreleases" class="header-sub-menu-mobile-link js-track-click ">
 News
 </a>
 </div>
@@ -1617,7 +1617,7 @@ Software Development
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/software-testing" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/software-testing" class="header-sub-menu-mobile-link js-track-click ">
 Testing and QA
 </a>
  </div>
@@ -1627,7 +1627,7 @@ Application Services
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/web-design" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/web-design" class="header-sub-menu-mobile-link js-track-click ">
 UI/UX Design
 </a>
 </div>
@@ -1637,14 +1637,14 @@ Infrastructure Services
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/analytics" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/analytics" class="header-sub-menu-mobile-link js-track-click ">
 Data Analytics
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/digital-transformation" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/digital-transformation" class="header-sub-menu-mobile-link js-track-click ">
 Digital Transformation
 </a>
 </div>
@@ -1757,7 +1757,7 @@ Data Analytics
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
- <a href="https://www.scnsoft.com/ecommerce" class="header-sub-menu-mobile-link js-track-click ">
+ <a href="https://www.datalytika.org/ecommerce" class="header-sub-menu-mobile-link js-track-click ">
 Ecommerce
 </a>
 </div>
@@ -1831,22 +1831,22 @@ Oil &amp; Gas
 <p class="header-sub-menu-mobile-title">Programming</p>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/java-development" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/java-development" class="header-sub-menu-mobile-link js-track-click ">
 Java
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/.net-development" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/.net-development" class="header-sub-menu-mobile-link js-track-click ">
 .NET
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/hire-python-developers" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/hire-python-developers" class="header-sub-menu-mobile-link js-track-click ">
 Python
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/php" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/php" class="header-sub-menu-mobile-link js-track-click ">
 PHP
 </a>
 </div>
@@ -1856,22 +1856,22 @@ Golang
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/cpp-development" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/cpp-development" class="header-sub-menu-mobile-link js-track-click ">
 C++
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/nodejs" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/nodejs" class="header-sub-menu-mobile-link js-track-click ">
 Node.js
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/javascript" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/javascript" class="header-sub-menu-mobile-link js-track-click ">
 JavaScript
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/hire-react-native-developers" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/hire-react-native-developers" class="header-sub-menu-mobile-link js-track-click ">
 React Native
 </a>
 </div>
@@ -1879,7 +1879,7 @@ React Native
 <p class="header-sub-menu-mobile-title">Trending</p>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/cloud-consulting" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/cloud-consulting" class="header-sub-menu-mobile-link js-track-click ">
 Cloud
 </a>
 </div>
@@ -1889,12 +1889,12 @@ Internet of Things
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/big-data" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/big-data" class="header-sub-menu-mobile-link js-track-click ">
  Big Data
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/data-science" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/data-science" class="header-sub-menu-mobile-link js-track-click ">
 Data Science
 </a>
 </div>
@@ -1937,22 +1937,22 @@ Microsoft Power Apps
 </a>
  </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/services/business-intelligence/microsoft/power-bi" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/services/business-intelligence/microsoft/power-bi" class="header-sub-menu-mobile-link js-track-click ">
 Microsoft Power BI
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/microsoft-azure" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/microsoft-azure" class="header-sub-menu-mobile-link js-track-click ">
 Microsoft Azure
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/aws" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/aws" class="header-sub-menu-mobile-link js-track-click ">
 Amazon Web Services
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/ecommerce/magento" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/ecommerce/magento" class="header-sub-menu-mobile-link js-track-click ">
 Magento
 </a>
 </div>
@@ -1967,7 +1967,7 @@ Salesforce
 </a>
 </div>
 <div class="header-sub-menu-mobile-item">
-<a href="https://www.scnsoft.com/pimcore-development" class="header-sub-menu-mobile-link js-track-click ">
+<a href="https://www.datalytika.org/pimcore-development" class="header-sub-menu-mobile-link js-track-click ">
 Pimcore
 </a>
 </div>
@@ -2192,10 +2192,10 @@ contact@scnsoft.com
 <a class="underline" href="/about/become-our-agent">Become Our Agent</a>
 </div>
 <div data-piwik-event="Footer,click,Privacy Policy" class="footer-links__item">
-<a class="underline" href="https://www.scnsoft.com/about/privacy-policy">Privacy Policy</a>
+<a class="underline" href="https://www.datalytika.org/about/privacy-policy">Privacy Policy</a>
 </div>
 <div data-piwik-event="Footer,click,Terms of Use" class="footer-links__item">
-<a class="underline" href="https://www.scnsoft.com/about/terms-of-use">Terms of Use</a>
+<a class="underline" href="https://www.datalytika.org/about/terms-of-use">Terms of Use</a>
 </div>
 <div class="break"></div>
 <div data-piwik-event="Footer,click,For press inquires" class="footer-links__item footer-links__item--press-email">
@@ -2219,7 +2219,7 @@ de
 </a>
 </li>
 <li data-piwik-event="Footer,click,fi version" class="footer-languages__item-container">
-<a class="footer-languages__item" href="https://www.scnsoft.com/fi">
+<a class="footer-languages__item" href="https://www.datalytika.org/fi">
 <span class="footer-languages__languages-flag">
 <img src="/bundles/app/img/flags/fi.svg" width="16" height="12" alt="">
 </span>
@@ -2267,7 +2267,7 @@ All rights reserved.
 "@type": "AggregateRating",
 "itemReviewed": {
 "@type": "Organization",
-"image": "https://www.scnsoft.com/sciencesoft-logos/sciencesoft_logo.png",
+"image": "https://www.datalytika.org/sciencesoft-logos/sciencesoft_logo.png",
 "name": "ScienceSoft",
 "telephone": "+12143066837",
 "address" : {
