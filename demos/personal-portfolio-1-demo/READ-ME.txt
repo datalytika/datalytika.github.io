@@ -1,9 +1,9 @@
   =>  Template Name    : ProMan - Personal Portfolio HTML Template
 
-  =>  Template Link    : https://htmlcodex.com/personal-portfolio-html-template
+  =>  Template Link    : https://datalytika.org/personal-portfolio-html-template
 
-  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
+  =>  Template License : https://datalytika.org/license (or read the LICENSE.txt file)
 
-  =>  Template Author  : HTML Codex
+  =>  Template Author  : HTML Websites
 
-  =>  Author Website   : https://htmlcodex.com
+  =>  Author Website   : https://datalytika.org
