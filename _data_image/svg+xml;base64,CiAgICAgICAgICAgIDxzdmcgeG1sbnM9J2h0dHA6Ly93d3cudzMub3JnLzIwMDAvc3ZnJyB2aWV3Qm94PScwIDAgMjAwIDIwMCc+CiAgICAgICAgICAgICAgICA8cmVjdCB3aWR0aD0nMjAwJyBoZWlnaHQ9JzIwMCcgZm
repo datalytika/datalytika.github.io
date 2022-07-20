@@ -2116,9 +2116,8 @@ Ask us
         </div>
     </div>
     <!-- Footer End -->
-<!--Script for whatsapp chat-->	
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-7f7cb116-4594-49d3-aefa-a906c79679ae"></div> <div style="display:none">
+	
+ <div style="display:none">
 <div class="snippet-content">
 <div class="container">
 <div class="footer__wrapper">
@@ -2299,5 +2298,5 @@ All rights reserved.
 </div>
 </div>
 </footer> <!--[if IE]><!-- ~zone: footer --><![endif]-->
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="077428fcc5a308e78b59e665-|49" defer=""></script></body>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="077428fcc5a308e78b59e665-|49" defer=""></script><script src="https://chatbox.csml.dev/script.min.js?token=unll2oyaxbx7sydgsfckrdaeewoh7a10" id="clevy-chatbox" async></script></body>
 </html>
