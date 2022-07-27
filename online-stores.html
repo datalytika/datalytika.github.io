@@ -164,8 +164,54 @@
                             </div>
                         </div>
 
-                        <h4 class="mb-3">Grab our package of this store plus custom domain plus responsive and customised admin dashboard at only $370 with tech support while installing. No other fees forever, you'll only renew your domain annually.</h4>  
-                                           
+                        <h4 class="mb-3">Grab our package:<br><br>-online store with your products<br>-custom domain<br>-responsive and customised admin panel<br>-tech support while installing<br>-no other fees forever - but you'll renew your domain annually<br>-customer payment options: mpesa and paypal (allows visa and mastercard)<br>-only $370<br><br>NB: this offer only applies if you intend to use less than 500mb disk space.<br><br>To grab this package, please book via the 'paypal' or 'credit card' button below and you'll receive an email confirmation.</h4>  
+                        <div id="smart-button-container">
+                            <div style="text-align: center;">
+                              <div id="paypal-button-container"></div>
+                            </div>
+                          </div>
+                        <script src="https://www.paypal.com/sdk/js?client-id=ATLAR2w4W4RTFR2O010qa5zCpDe7jzLTg6OJ5eouaeX2mCN-k09PhC3IDHcY8R7hDakwfZ5RkKIr6y-F&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+                        <script>
+                          function initPayPalButton() {
+                            paypal.Buttons({
+                              style: {
+                                shape: 'rect',
+                                color: 'gold',
+                                layout: 'vertical',
+                                label: 'paypal',
+                                
+                              },
+                      
+                              createOrder: function(data, actions) {
+                                return actions.order.create({
+                                  purchase_units: [{"description":"Online Store Package","amount":{"currency_code":"USD","value":370}}]
+                                });
+                              },
+                      
+                              onApprove: function(data, actions) {
+                                return actions.order.capture().then(function(orderData) {
+                                  
+                                  // Full available details
+                                  console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                      
+                                  // Show a success message within this page, e.g.
+                                  const element = document.getElementById('paypal-button-container');
+                                  element.innerHTML = '';
+                                  element.innerHTML = '<h3>Thank you for your payment!</h3>';
+                      
+                                  // Or go to another URL:  actions.redirect('thank_you.html');
+                                  
+                                });
+                              },
+                      
+                              onError: function(err) {
+                                console.log(err);
+                              }
+                            }).render('#paypal-button-container');
+                          }
+                          initPayPalButton();
+                          </script>
+
 
                         <div class="col-12 wow slideInUp" data-wow-delay="0.1s">
                             <nav aria-label="Page navigation">
