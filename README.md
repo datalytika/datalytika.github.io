@@ -1,2 +1,2 @@
 # datalytika.github.io
-Data analytics and AI: Playing around with Pandas and Matplotlib
+Data Analytics, Software and AI: Playing around with Pandas and Matplotlib, JS and BeautifulSoup.

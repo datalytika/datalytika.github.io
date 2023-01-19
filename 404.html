@@ -21,23 +21,27 @@
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
-  
-  .message {
+}
+
+.message {
     font-size: 16px;
     text-align: center;
-    h1 {
+  }
+  
+  h1 {
       margin: 0;
       padding: 0;
       font-size: 11em;
       transform: skewY(-5deg);
       transition: 0.4s ease-in-out all;
+  }
       &:hover {
         text-shadow: 20px 20px 0 fade(#afd33d, 10%);
       }
       @media (max-width: 300px) {
         font-size: 50vw;
       }
-    }
+    
     h3 {
       color: #afd33d;
       font-size: 0.9em;
@@ -47,7 +51,7 @@
         font-size: 5vw;
       }
     }
-  }
+  
   .footer {
     display: flex;
     flex-wrap: wrap;
@@ -126,7 +130,7 @@
       <h3>The page you seek does not exist. Files may have been moved. We're looking at the error.</h3>
     </div>
     <div class="footer">
-      <a href="https://datalytika.org/websites.html" title="home" target="_blank">Back to Home<span></span></a>
+      <a href="index.html" title="home" target="_self">Back to Home<span></span></a>
       <p class="legal">Copyright &copy; 2022&nbsp;-&nbsp;2023 Datalytika&trade; All Rights Reserved</p>
     </div>
   </div>
