@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <title>Datalytika - Software Development</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="datalytika, datalytika weekly, data analysis, excel templates, data presentations, dashboards, research, data collection, financial modeling, projections, reports" name="keywords">
-    <meta content="Website Development and Data Services" name="description">
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <meta content="Website Development, Data Analysis, Web Design, Research, SEO, Software" name="keywords">
+    <meta content="Services" name="description">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DE5C8BZXC1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -18,12 +18,16 @@
   gtag('config', 'G-DE5C8BZXC1');
 </script>
 	
-<!-- Script for Google Ads -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1400416238375402"
-     crossorigin="anonymous"></script>
-
+<!-- Script to autorefresh webpage -->
+<script>
+    function autoRefresh() {
+        window.location = window.location.href;
+    }
+    setInterval('autoRefresh()', 1200000);
+</script>
+	   
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="../img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,14 +39,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+	 		
 </head>
 
 <body>
@@ -79,7 +84,7 @@
     <!-- Navbar & Carousel Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand p-0">
+            <a href="../index.html" class="navbar-brand p-0">
                 <h1 class="m-0"><i class="fa fa-database me-2"></i>Datalytika</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -87,9 +92,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="services/index.html" class="nav-item nav-link">Services</a>
+                    <a href="../index.html" class="nav-item nav-link">Home</a>
+                    <a href="../about.html" class="nav-item nav-link">About</a>
+                    <a href="../services/index.html" class="nav-item nav-link active">Services</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Case Studies</a>
                         <div class="dropdown-menu m-0">
@@ -100,18 +105,18 @@
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Solutions</a>
                 <div class="dropdown-menu m-0">
-                    <a href="data.html" class="dropdown-item">Data</a>
-                    <a href="websites.html" class="dropdown-item">Web</a>
-                    <a href="quote.html" class="dropdown-item">Free Quote</a>
+                    <a href="data.html" class="dropdown-item">Data Solutions</a>
+                    <a href="web.html" class="dropdown-item">Web Solutions</a>
+                    <a href="integration.html" class="dropdown-item">Integration Solutions</a>
+                   <a href="seo.html" class="dropdown-item">SEO Solutions</a>
+                   <a href="software.html" class="dropdown-item">Apps & Software Solutions</a>
+                   <a href="consulting.html" class="dropdown-item">Bespoke IT Solutions</a>
+                   <a href="quote.html" class="dropdown-item">Free Quote</a>
                 </div>
             </div>
                     <div class="nav-item dropdown">
                         <a href="blog.html" class="nav-item nav-link">Blog</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="blog.html" class="dropdown-item">Blog Posts</a>
-                            <a href="popularposts.html" class="dropdown-item">Popular Posts</a>
-                            <a href="latestnews.html" class="dropdown-item">Latest News</a>                            
-                        </div>
+                        
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
@@ -120,14 +125,13 @@
             </div>
         </nav>
 
-
         <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
             <div class="row py-5">
                 <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-                    <h1 class="display-4 text-white animated zoomIn">Team</h1>
+                    <h1 class="display-4 text-white animated zoomIn">Services Grid</h1>
                     <a href="" class="h5 text-white">Home</a>
                     <i class="far fa-circle text-white px-2"></i>
-                    <a href="" class="h5 text-white">Team</a>
+                    <a href="" class="h5 text-white">Services</a>
                 </div>
             </div>
         </div>
@@ -154,73 +158,126 @@
     <!-- Full Screen Search End -->
 
 
-    <!-- Team Start -->
+    <!-- Blog Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Tech Team</h5>
-                <h1 class="mb-0">Professionals Ready to Help Your Business</h1>
-            </div>
             <div class="row g-5">
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class="text-primary">Mike Gregory</h4>
-                            <p class="text-uppercase m-0">Lead, Tech Services</p>
+                <div class="col-lg-8">
+                    <!-- Blog Detail Start -->
+                    <div class="mb-5">
+                        <img class="img-fluid w-100 rounded mb-5" src="../img/blog-1.jpg" alt="">
+                        <h1 class="mb-4">Diam dolor est labore duo ipsum clita sed et lorem tempor duo</h1>
+                        <p>Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut
+                            magna lorem. Nonumy vero labore lorem sanctus rebum et lorem magna kasd, stet
+                            amet magna accusam consetetur eirmod. Kasd accusam sit ipsum sadipscing et at at
+                            sanctus et. Ipsum sit gubergren dolores et, consetetur justo invidunt at et
+                            aliquyam ut et vero clita. Diam sea sea no sed dolores diam nonumy, gubergren
+                            sit stet no diam kasd vero.</p>
+                        <p>Voluptua est takimata stet invidunt sed rebum nonumy stet, clita aliquyam dolores
+                            vero stet consetetur elitr takimata rebum sanctus. Sit sed accusam stet sit
+                            nonumy kasd diam dolores, sanctus lorem kasd duo dolor dolor vero sit et. Labore
+                            ipsum duo sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo et,
+                            clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
+                            justo dolore sit invidunt.</p>
+                        <p>Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor
+                            invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam
+                            lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor
+                            rebum consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No at tempor
+                            sea diam kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren at
+                            lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam dolores at
+                            sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos.</p>
+                        <p>Voluptua est takimata stet invidunt sed rebum nonumy stet, clita aliquyam dolores
+                            vero stet consetetur elitr takimata rebum sanctus. Sit sed accusam stet sit
+                            nonumy kasd diam dolores, sanctus lorem kasd duo dolor dolor vero sit et. Labore
+                            ipsum duo sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo et,
+                            clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
+                            justo dolore sit invidunt.</p>
+                    </div>
+                    <!-- Blog Detail End -->
+                </div>
+    
+                <!-- Sidebar Start -->
+                <div class="col-lg-4">
+                    <!-- Search Form Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="input-group">
+                            <input type="text" class="form-control p-3" placeholder="Keyword">
+                            <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
+                    <!-- Search Form End -->
+    
+                    <!-- Category Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Service Categories</h3>
                         </div>
-                        <div class="text-center py-4">
-                            <h4 class="text-primary">Monica J. Aketch</h4>
-                            <p class="text-uppercase m-0">Lead, Integrations and PSPs.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class="text-primary">Joseph Lweya</h4>
-                            <p class="text-uppercase m-0">Lead, Analytics and BI</p>
+                        <div class="link-animated d-flex flex-column justify-content-start">
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="../services/data.html"><i class="bi bi-arrow-right me-2"></i>Data Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="../services/web.html"><i class="bi bi-arrow-right me-2"></i>Web Technologies</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="../services/integration.html"><i class="bi bi-arrow-right me-2"></i>Integration</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="../services/seo.html"><i class="bi bi-arrow-right me-2"></i>SEO Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="../services/software.html"><i class="bi bi-arrow-right me-2"></i>Software Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="../services/consulting.html"><i class="bi bi-arrow-right me-2"></i>Consult: IT Services</a>
                         </div>
                     </div>
+                    <!-- Category End -->
+    
+
+    
+                    <!-- Image Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="img/blog-1.jpg" alt="" class="img-fluid rounded">
+                    </div>
+                    <!-- Image End -->
+    
+                    <!-- Tags Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Services Cloud</h3>
+                        </div>
+                        <div class="d-flex flex-wrap m-n1">
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                        </div>
+                    </div>
+                    <!-- Tags End -->
+    
+                    <!-- Plain Text Start -->
+                    <div class="wow slideInUp" data-wow-delay="0.1s">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Book Consultation Slot</h3>
+                        </div>
+                        <div class="bg-light text-center" style="padding: 30px;">
+                            <p>We can discuss your project to determine the need and address the problem with any of our solutions. Please use the button below to schedule a brief meet-up with a technician.</p>
+                            <!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/jlweya/datalytika-client-first-meet', text: 'Schedule time with Joe', color: '#0069ff', textColor: '#ffffff', branding: undefined }); }</script>
+<!-- Calendly badge widget end -->
+                        </div>
+                    </div>
+                    <!-- Plain Text End -->
                 </div>
+                <!-- Sidebar End -->
             </div>
         </div>
     </div>
-    <!-- Team End -->
+    <!-- Blog End -->
 
 
     <!-- Vendor Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.9s">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5 mb-5">
             <div class="bg-white">
                 <div class="owl-carousel vendor-carousel">
@@ -240,8 +297,8 @@
     <!-- Vendor End -->
     
 
-       <!-- Footer Start -->
-       <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-4 col-md-6 footer-about">
@@ -289,12 +346,12 @@
                                 <h3 class="text-light mb-0">Quick Links</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
-                                <a class="text-light mb-2" href=""><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                                <a class="text-light mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                                <a class="text-light mb-2" href="services/index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                                <a class="text-light mb-2" href="team.html"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                                <a class="text-light mb-2" href="blog.html"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                                <a class="text-light" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                                <a class="text-light mb-2" href="../index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="../about.html"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="../services/index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                <a class="text-light mb-2" href="../team.html"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
+                                <a class="text-light mb-2" href="../blog.html"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                                <a class="text-light" href="../contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
@@ -302,12 +359,12 @@
                                 <h3 class="text-light mb-0">Popular Links</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
-                                <a class="text-light mb-2" href="services/data.html"><i class="bi bi-arrow-right text-primary me-2"></i>Data Services</a>
-                                <a class="text-light mb-2" href="services/web.html"><i class="bi bi-arrow-right text-primary me-2"></i>Web Services</a>
-                                <a class="text-light mb-2" href="services/integration.html"><i class="bi bi-arrow-right text-primary me-2"></i>Integration Services</a>
-                                <a class="text-light mb-2" href="services/seo.html"><i class="bi bi-arrow-right text-primary me-2"></i>SEO Services</a>
-                                <a class="text-light mb-2" href="services/software.html"><i class="bi bi-arrow-right text-primary me-2"></i>Software & App Dev.</a>
-                                <a class="text-light" href="services/consulting.html"><i class="bi bi-arrow-right text-primary me-2"></i>Consult: IT Services</a>
+                                <a class="text-light mb-2" href="data.html"><i class="bi bi-arrow-right text-primary me-2"></i>Data Services</a>
+                                <a class="text-light mb-2" href="web.html"><i class="bi bi-arrow-right text-primary me-2"></i>Web Services</a>
+                                <a class="text-light mb-2" href="integration.html"><i class="bi bi-arrow-right text-primary me-2"></i>Integration Services</a>
+                                <a class="text-light mb-2" href="seo.html"><i class="bi bi-arrow-right text-primary me-2"></i>SEO Services</a>
+                                <a class="text-light mb-2" href="software.html"><i class="bi bi-arrow-right text-primary me-2"></i>Software & App Dev.</a>
+                                <a class="text-light" href="consulting.html"><i class="bi bi-arrow-right text-primary me-2"></i>Consult: IT Services</a>
                             </div>
                         </div>
                     </div>
@@ -320,11 +377,11 @@
             <div class="row justify-content-end">
                 <div class="col-lg-8 col-md-6">
                     <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Datalytika</a>. All Rights Reserved. 
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="../index.html">Datalytika</a>. All Rights Reserved. 
 						
 						<!--/*** Thank you for your support. ***/-->
-						Developed by <a class="text-white border-bottom" href="https://datalytika.net">Datalytika</a></p>
-                        <br>Distributed By: <a class="border-bottom" href="https://datalytika.net" target="_blank">Datalytika</a>
+						Developed by <a class="text-white border-bottom" href="../index.html">Datalytika</a></p>
+                        <br>Distributed By: <a class="border-bottom" href="../index.html" target="_blank">Datalytika</a>
                     </div>
                 </div>
             </div>
@@ -341,14 +398,14 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-<script src="https://chatbox.csml.dev/script.min.js?token=unll2oyaxbx7sydgsfckrdaeewoh7a10" id="clevy-chatbox" async></script><script type="text/javascript"  src="https://apiv2.popupsmart.com/api/Bundle/389416" async></script></body>
+    <script src="../js/main.js"></script>
+    <script type="text/javascript"  src="https://apiv2.popupsmart.com/api/Bundle/389416" async></script></body>
 </html>
