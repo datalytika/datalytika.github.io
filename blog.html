@@ -283,57 +283,17 @@
                     <!-- Plain Text Start -->
                     <div class="wow slideInUp" data-wow-delay="0.1s">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                            <h3 class="mb-0">Have you done this?</h3>
+                            <h3 class="mb-0">One-price offer: Have you done this?</h3>
                         </div>
                         <div class="bg-light text-align" style="padding: 30px;">
                             <p>We've noticed a surge in views and interest on these <button><a href="https://datalytika.net/personal-portfolio-1-demo.html" target="_blank"> personal portfolio website demos </a></button>. Whether a <strong> freelancer </strong> or not, a <strong> personal portfolio </strong> showcases what you <strong> do, </strong> have <strong> done </strong>, and are <strong> capable of doing.</strong> <br><br> Typically, a resume would just tell. Potential <strong> clients </strong> and/or <strong> employers </strong> prefer to see your skills and abilities, and whether they’re relevant for the task or role. <br><br> You can do it yourself, or we can; <ol><li>curate/design your personal portfolio,</li> <li>write it up with content,</li> <li>with responsive forms, sending messages to your email,</li> <li> integrated chatboxes eg; whatsapp,</li> <li> subscription or pricing plans with payment options for your clients,</li><li> with a custom domain, and customised to your specialities</li></ol> in 24 hours for an all-inclusive price of just <strong> $99. </strong></p>
-                            <div class="btn btn-primary py-2 px-4 text-center">Book your slot now via paypal!</div>
-                            <div id="smart-button-container">
-                                <div style="text-align: center;">
-                                  <div id="paypal-button-container"></div>
-                                </div>
-                              </div>
-                            <script src="https://www.paypal.com/sdk/js?client-id=ActKBgLy94V4h5Ilf6WmdUk8VOTRcSx22Q-h39n5vgwp0--9--uA9mQt2vUo-rdrPjmuhqEdVSEQVf4i&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-                            <script>
-                              function initPayPalButton() {
-                                paypal.Buttons({
-                                  style: {
-                                    shape: 'rect',
-                                    color: 'gold',
-                                    layout: 'vertical',
-                                    label: 'paypal',
-                                    
-                                  },
-                          
-                                  createOrder: function(data, actions) {
-                                    return actions.order.create({
-                                      purchase_units: [{"description":"Personal Portfolio Website","amount":{"currency_code":"USD","value":97}}]
-                                    });
-                                  },
-                          
-                                  onApprove: function(data, actions) {
-                                    return actions.order.capture().then(function(orderData) {
-                                      
-                                      // Full available details
-                                      console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-                          
-                                      // Show a success message within this page, e.g.
-                                      const element = document.getElementById('paypal-button-container');
-                                      element.innerHTML = '';
-                                      element.innerHTML = '<h3>Thank you for your payment!</h3>';
-                          
-                                      // Or go to another URL:  actions.redirect('thank_you.html');
-                                      
-                                    });
-                                  },
-                          
-                                  onError: function(err) {
-                                    console.log(err);
-                                  }
-                                }).render('#paypal-button-container');
-                              }
-                              initPayPalButton();
-                            </script>
+                            <div class="btn btn-primary py-2 px-4 text-center bg-dark"><!-- Calendly link widget begin -->
+                                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/jlweya/datalytika-client-first-meet'});return false;">Schedule Appointment for this Service</a>
+                                <!-- Calendly link widget end --></div>
+                            
+
                         </div>
                     </div>
                     <!-- Plain Text End -->
@@ -389,11 +349,11 @@
                         </div>
                         <div class="bg-light text-center" style="padding: 30px;">
                             <p>We can discuss your project to determine the need and address the problem with any of our solutions. Please use the button below to schedule a brief meet-up with a technician.</p>
-                            <!-- Calendly badge widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/jlweya/datalytika-client-first-meet', text: 'Schedule an Appointment', color: '#0069ff', textColor: '#ffffff', branding: undefined }); }</script>
-<!-- Calendly badge widget end -->
+                            <div class="btn btn-primary py-2 px-4 text-center bg-dark"><!-- Calendly link widget begin -->
+                                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/jlweya/datalytika-client-first-meet'});return false;">Schedule Appointment for this Service</a>
+                                <!-- Calendly link widget end --></div>
                         </div>
                     </div>
                     <!-- Plain Text End -->
