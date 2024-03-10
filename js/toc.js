@@ -1,11 +1,11 @@
 var ToC =
   "<nav role='navigation' class='table-of-contents'>" +
-    "<h2>On this page:</h2>" +
+    "<h1>On this page:</h1>" +
     "<ul>";
 
 var newLine, el, title, link;
 
-$("article h3").each(function() {
+$("article h1").each(function() {
 
   el = $(this);
   title = el.text();
