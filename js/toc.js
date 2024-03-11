@@ -1,5 +1,5 @@
 var ToC =
-  "<div class="section-title section-title-sm position-relative pb-3 mb-4">" +
+  "<div class='section-title section-title-sm position-relative pb-3 mb-4'>" +
     "<h1>On this page:</h1>" +
     "<ul>";
 
