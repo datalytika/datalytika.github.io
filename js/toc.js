@@ -1,5 +1,5 @@
 var ToC =
-  "<nav role='navigation' class='table-of-contents'>" +
+  "<div class="section-title section-title-sm position-relative pb-3 mb-4">" +
     "<h1>On this page:</h1>" +
     "<ul>";
 
@@ -24,6 +24,6 @@ $("article h1").each(function() {
 
 ToC +=
    "</ul>" +
-  "</nav>";
+  "</div>";
 
 $(".all-questions").prepend(ToC);
