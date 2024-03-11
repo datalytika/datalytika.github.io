@@ -1,7 +1,7 @@
 var ToC =
   "<div class='section-title section-title-sm position-relative pb-3 mb-4'>" +
     "<h1>On this page:</h1>" +
-    "<ul>";
+    "<ul class='link-animated d-flex flex-column justify-content-start h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2'>";
 
 var newLine, el, title, link;
 
